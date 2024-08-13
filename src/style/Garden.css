@@ -1,0 +1,117 @@
+.garden-container {
+  flex: 1;
+  max-width: 600px;
+  margin: 5rem auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Open Sans", sans-serif;
+  margin-top: 6rem; /* Creates space between header and card */
+}
+
+.garden-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.plant-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.plant-input {
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.add-plant-button {
+  padding: 10px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.add-plant-button:hover {
+  background-color: #2ecc71;
+}
+
+.no-plants-message {
+  text-align: center;
+  color: #e74c3c;
+  font-size: 1.2rem;
+}
+
+.plant-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .garden-container {
+    margin: 2rem auto;
+    padding: 15px;
+    margin-top: 4rem;
+  }
+
+  .footer {
+    padding: 1rem;
+  }
+
+  .garden-title {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+  }
+
+  .plant-input {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  .add-plant-button {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  .no-plants-message {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .garden-container {
+    margin: 1rem auto;
+    padding: 10px;
+  }
+
+  .garden-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .plant-input {
+    padding: 6px;
+    font-size: 0.8rem;
+  }
+
+  .add-plant-button {
+    padding: 6px;
+    font-size: 0.8rem;
+  }
+
+  .no-plants-message {
+    font-size: 0.9rem;
+  }
+}

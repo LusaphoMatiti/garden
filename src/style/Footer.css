@@ -1,0 +1,88 @@
+.footer {
+  background: var(--clr-grey-1);
+  text-align: center;
+  padding: 2rem;
+  margin-top: auto;
+  background: #a2d5ab;
+  width: 100%;
+  bottom: 0;
+  position: relative;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  color: var(--clr-white);
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-right: 1rem;
+  letter-spacing: var(--spacing);
+  transition: var(--transition);
+}
+
+.footer-note a {
+  margin-left: 0.2rem;
+}
+
+.copyright {
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  color: var(--clr-white);
+}
+.copyright span {
+  margin-left: 0.5rem;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .garden-container {
+    padding: 15px;
+    margin-top: 5rem;
+  }
+
+  .plant-card {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .garden-container {
+    margin-top: 4rem; /* Adjust for smaller screens */
+  }
+
+  .footer {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .plant-card {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .plant-name {
+    font-size: 1.2rem;
+  }
+
+  .plant-type,
+  .plant-schedule {
+    font-size: 0.9rem;
+  }
+
+  .delete-button {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+}
