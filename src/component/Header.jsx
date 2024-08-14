@@ -2,7 +2,7 @@ import React from "react";
 import { pageLinks } from "../data";
 import "../style/Header.css";
 import { useState } from "react";
-import garden from "../Images/gardening.svg";
+import garden from "../Images/garden.png";
 
 const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -18,7 +18,7 @@ const Header = () => {
           <div className="nav-header">
             <div className="title-logo">
               <h1>Garden Assistant</h1>
-              <img src={garden} alt="garden" />
+              <img src={garden} alt="garden" className="logo" />
             </div>
 
             <button

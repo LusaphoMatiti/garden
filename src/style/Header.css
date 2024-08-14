@@ -38,6 +38,17 @@ h1 {
 
 .title-logo {
   display: flex;
+  align-items: center;
+}
+
+.title-logo h1 {
+  font-size: 1rem;
+}
+
+.logo {
+  width: 1.6rem; /* Adjust size as needed */
+  height: auto;
+  margin-left: 8px; /* Small gap between image and title */
 }
 
 .navbar {
